@@ -23,20 +23,18 @@ const Hero = () => {
           <div className="text-white">
             <div className="inline-flex items-center px-4 py-2 bg-accent/20 backdrop-blur-sm rounded-full text-accent font-medium text-sm mb-6 border border-accent/30">
               <Award className="mr-2 h-4 w-4" />
-              Premium Quality Manufacturers
+              Your trusted supplier since 1996
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               Crafting Excellence in{" "}
               <span className="bg-gradient-premium bg-clip-text text-transparent">
-                Leather Fashion
+                Leather &amp; Outwear
               </span>
             </h1>
-            
+
             <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-              Manufacturers and exporters of premium designer leather and PU clothing. 
-              With production capacity of over 250,000 garments, we specialize in 
-              washed, vintage, and luxury leather designs.
+              We are a family-run business unit that manufactures and exports leather garments and outerwear (made from fabrics such as denim, canvas, twill, etc).
             </p>
 
             {/* Stats */}
@@ -47,7 +45,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent">25+</div>
-                <div className="text-sm text-gray-300">Years Experience</div>
+                <div className="text-sm text-gray-300">Years OF Experience</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent">50+</div>
@@ -65,7 +63,7 @@ const Hero = () => {
               </Link>
               <Link to="/capabilities">
                 <Button variant="elegant" size="xl">
-                  View Capabilities
+                  View our infrastructure
                 </Button>
               </Link>
             </div>
@@ -76,16 +74,16 @@ const Hero = () => {
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
               <Factory className="h-12 w-12 text-accent mb-4" />
               <h3 className="text-white font-semibold text-lg mb-2">Modern Facility</h3>
-              <p className="text-gray-200 text-sm">State-of-the-art manufacturing with quality control</p>
+              <p className="text-gray-200 text-sm">Quality control at each stage of the production process</p>
             </div>
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
               <Users className="h-12 w-12 text-accent mb-4" />
               <h3 className="text-white font-semibold text-lg mb-2">Expert Team</h3>
-              <p className="text-gray-200 text-sm">Skilled craftspeople with decades of experience</p>
+              <p className="text-gray-200 text-sm">Seasoned pattern masters &amp; skilled craftsmen with over two decades of hands-on experience</p>
             </div>
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 col-span-2">
               <Award className="h-12 w-12 text-accent mb-4" />
-              <h3 className="text-white font-semibold text-lg mb-2">Premium Materials</h3>
+              <h3 className="text-white font-semibold text-lg mb-2">High-quality raw materials</h3>
               <p className="text-gray-200 text-sm">Specializing in lamb, goat, cow, and buff leather with vintage and metallic finishes</p>
             </div>
           </div>

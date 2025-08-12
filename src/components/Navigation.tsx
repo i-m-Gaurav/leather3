@@ -9,10 +9,10 @@ const Navigation = () => {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Products", href: "/products" },
-    { name: "Capabilities", href: "/capabilities" },
-    { name: "Contact", href: "/contact" }
+    { name: "About Us", href: "/about" },
+    { name: "Our Products", href: "/products" },
+    { name: "Our Infrastructure", href: "/capabilities" },
+    { name: "Our Philosophy", href: "/contact" }
   ];
 
   return (
@@ -35,11 +35,10 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`transition-smooth px-3 py-2 text-sm font-medium ${
-                    location.pathname === item.href 
-                      ? "text-primary" 
-                      : "text-foreground hover:text-primary"
-                  }`}
+                  className={`transition-smooth px-3 py-2 text-sm font-medium ${location.pathname === item.href
+                    ? "text-primary"
+                    : "text-foreground hover:text-primary"
+                    }`}
                 >
                   {item.name}
                 </Link>
@@ -76,11 +75,10 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`block px-3 py-2 text-base font-medium transition-smooth ${
-                    location.pathname === item.href 
-                      ? "text-primary" 
-                      : "text-foreground hover:text-primary"
-                  }`}
+                  className={`block px-3 py-2 text-base font-medium transition-smooth ${location.pathname === item.href
+                    ? "text-primary"
+                    : "text-foreground hover:text-primary"
+                    }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
@@ -89,7 +87,7 @@ const Navigation = () => {
               <div className="pt-4">
                 <Link to="/contact">
                   <Button variant="hero" className="w-full">
-                    Get Quote
+                    Contact Us
                   </Button>
                 </Link>
               </div>
