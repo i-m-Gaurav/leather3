@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alignz Exports Leather Design System - Premium leather craftsmanship aesthetic */
+
+@layer base {
+  :root {
+    /* Base colors - Warm, sophisticated palette */
+    --background: 45 15% 97%;
+    --foreground: 30 10% 15%;
+
+    /* Card components */
+    --card: 42 20% 95%;
+    --card-foreground: 30 15% 20%;
+
+    /* Popover components */
+    --popover: 42 20% 95%;
+    --popover-foreground: 30 15% 20%;
+
+    /* Primary - Rich leather brown */
+    --primary: 25 35% 25%;
+    --primary-foreground: 45 25% 95%;
+    --primary-glow: 25 45% 35%;
+
+    /* Secondary - Warm cream leather */
+    --secondary: 42 25% 88%;
+    --secondary-foreground: 25 35% 25%;
+
+    /* Muted tones */
+    --muted: 40 20% 92%;
+    --muted-foreground: 30 12% 45%;
+
+    /* Accent - Premium gold */
+    --accent: 45 75% 65%;
+    --accent-foreground: 25 35% 15%;
+
+    /* Destructive */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 45 25% 95%;
+
+    /* Borders and inputs */
+    --border: 40 15% 85%;
+    --input: 40 15% 90%;
+    --ring: 25 35% 25%;
+
+    --radius: 0.75rem;
+
+    /* Custom design tokens */
+    --leather-texture: 30 20% 22%;
+    --vintage-brown: 35 40% 35%;
+    --premium-gold: 45 80% 60%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-leather: linear-gradient(145deg, hsl(var(--leather-texture)), hsl(var(--vintage-brown)));
+    --gradient-premium: linear-gradient(120deg, hsl(var(--accent)), hsl(var(--premium-gold)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    
+    /* Shadows */
+    --shadow-leather: 0 10px 30px -5px hsl(var(--primary) / 0.3);
+    --shadow-premium: 0 20px 40px -10px hsl(var(--accent) / 0.4);
+    --shadow-soft: 0 4px 20px -2px hsl(var(--primary) / 0.1);
+    
+    /* Animations */
+    --transition-leather: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s ease-out;
+  }
+
+  .dark {
+    /* Dark mode - Rich leather workshop aesthetic */
+    --background: 30 15% 8%;
+    --foreground: 45 20% 92%;
+
+    --card: 30 20% 12%;
+    --card-foreground: 45 15% 88%;
+
+    --popover: 30 20% 12%;
+    --popover-foreground: 45 15% 88%;
+
+    --primary: 45 25% 85%;
+    --primary-foreground: 30 15% 15%;
+    --primary-glow: 45 35% 75%;
+
+    --secondary: 25 25% 18%;
+    --secondary-foreground: 45 20% 85%;
+
+    --muted: 30 15% 15%;
+    --muted-foreground: 40 10% 65%;
+
+    --accent: 45 70% 55%;
+    --accent-foreground: 30 15% 10%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 45 20% 92%;
+
+    --border: 30 15% 20%;
+    --input: 30 15% 18%;
+    --ring: 45 25% 75%;
+    
+    /* Dark mode custom tokens */
+    --leather-texture: 25 25% 15%;
+    --vintage-brown: 30 30% 25%;
+    --premium-gold: 45 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
