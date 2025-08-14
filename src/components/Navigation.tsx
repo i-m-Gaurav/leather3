@@ -50,7 +50,7 @@ const Navigation = () => {
           <div className="hidden md:block">
             <Link to="/contact">
               <Button variant="hero" size="lg">
-                Get Quote
+                Contact Us
               </Button>
             </Link>
           </div>

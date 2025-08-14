@@ -26,7 +26,7 @@ const Hero = () => {
               Your trusted supplier since 1996
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
               Crafting Excellence in{" "}
               <span className="bg-gradient-premium bg-clip-text text-transparent">
                 Leather &amp; Outwear
@@ -45,7 +45,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent">25+</div>
-                <div className="text-sm text-gray-300">Years OF Experience</div>
+                <div className="text-sm text-gray-300">Years of Experience</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent">50+</div>
@@ -63,7 +63,7 @@ const Hero = () => {
               </Link>
               <Link to="/capabilities">
                 <Button variant="elegant" size="xl">
-                  View our infrastructure
+                  View Our Infrastructure
                 </Button>
               </Link>
             </div>
@@ -74,7 +74,7 @@ const Hero = () => {
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
               <Factory className="h-12 w-12 text-accent mb-4" />
               <h3 className="text-white font-semibold text-lg mb-2">Modern Facility</h3>
-              <p className="text-gray-200 text-sm">Quality control at each stage of the production process</p>
+              <p className="text-gray-200 text-sm">State-of-the-art manufacturing unit with quality control at each stage of the production process</p>
             </div>
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
               <Users className="h-12 w-12 text-accent mb-4" />
@@ -84,7 +84,7 @@ const Hero = () => {
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 col-span-2">
               <Award className="h-12 w-12 text-accent mb-4" />
               <h3 className="text-white font-semibold text-lg mb-2">High-quality raw materials</h3>
-              <p className="text-gray-200 text-sm">Specializing in lamb, goat, cow, and buff leather with vintage and metallic finishes</p>
+              <p className="text-gray-200 text-sm">Use of fine quality leather skins of Indian & foreign origins, from lamb, goat, cow, buffalo, and suedes. Use of recycled linings and packaging made of recyclable materials.</p>
             </div>
           </div>
         </div>
