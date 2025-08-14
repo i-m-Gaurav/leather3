@@ -70,7 +70,7 @@ const Hero = () => {
           </div>
 
           {/* Features Grid */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2  gap-6">
             <div className="bg-background/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
               <Factory className="h-12 w-12 text-accent mb-4" />
               <h3 className="text-white font-semibold text-lg mb-2">Modern Facility</h3>
