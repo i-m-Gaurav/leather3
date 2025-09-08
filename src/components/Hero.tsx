@@ -48,7 +48,7 @@ const Hero = () => {
                 <div className="text-sm text-gray-300">Years of Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">50+</div>
+                <div className="text-3xl font-bold text-accent">20+</div>
                 <div className="text-sm text-gray-300">Countries Served</div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/products">
                 <Button variant="premium" size="xl" className="group">
-                  Explore Collection
+                  Explore Our Collection
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>

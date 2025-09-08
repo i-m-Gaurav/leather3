@@ -31,13 +31,13 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 1998, Alignz Exports began as a small family-owned leather workshop in the heart of India's leather manufacturing hub. What started as a passion for traditional craftsmanship has evolved into a globally recognized manufacturer of premium leather garments.
+                  Founded in 1996, Alignz Exports began as a small family-owned leather workshop in the heart of India's leather manufacturing hub. What started as a passion for traditional craftsmanship has evolved into a globally recognized manufacturer of premium leather garments.
                 </p>
                 <p>
                   Our journey has been defined by our commitment to quality, innovation, and ethical manufacturing practices. We blend time-honored Indian leather crafting techniques with modern technology to create garments that meet international standards.
                 </p>
                 <p>
-                  Today, we proudly serve clients across 40+ countries, maintaining our core values of excellence, integrity, and customer satisfaction in every piece we create.
+                  Over these years, we have proudly served clients across 20+ countries, maintaining our core values of excellence, great attention to detail, and customer satisfaction in every piece we create.
                 </p>
               </div>
             </div>
