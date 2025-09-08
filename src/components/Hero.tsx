@@ -29,7 +29,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
               Crafting Excellence in{" "}
               <span className="bg-gradient-premium bg-clip-text text-transparent">
-                Leather &amp; Outwear
+                Leather &amp; Outerwear
               </span>
             </h1>
 
